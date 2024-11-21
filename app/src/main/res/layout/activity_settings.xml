@@ -28,12 +28,12 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:padding="4dp"
-            android:src="@drawable/back_icon" />
+            android:src="@drawable/ic_back_arrow" />
 
         <View
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="8.5"></View>
+            android:layout_weight="8.5" />
     </LinearLayout>
 
     <View
@@ -47,7 +47,7 @@
         android:layout_height="0dp"
         android:layout_gravity="center"
         android:layout_weight="2.2"
-        android:src="@drawable/splash_src" />
+        android:src="@drawable/app_inside_icon" />
 
 
     <TextView
@@ -275,7 +275,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:padding="8dp"
-            android:src="@drawable/feedback" />
+            android:src="@drawable/ic_feedback" />
 
         <View
             android:layout_width="0dp"
@@ -309,6 +309,15 @@
         android:layout_weight="0.015"
         android:background="#777777" />
 
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/BANNER_AD_UNIT_ID"/>
 
     <View
         android:layout_width="match_parent"

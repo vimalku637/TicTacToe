@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
@@ -18,12 +17,12 @@
         <entry key="..\:/DemoApp/TicTacToe/app/src/main/res/layout/activity_settings.xml" value="0.14" />
         <entry key="..\:/DemoApp/TicTacToe/app/src/main/res/layout/celebrate_dialog.xml" value="0.1390625" />
         <entry key="..\:/DemoApp/TicTacToe/app/src/main/res/layout/draw_dialog.xml" value="0.13037109375" />
-        <entry key="..\:/DemoApp/TicTacToe/app/src/main/res/layout/quit_dialog.xml" value="0.13802083333333334" />
+        <entry key="..\:/DemoApp/TicTacToe/app/src/main/res/layout/quit_dialog.xml" value="0.21" />
         <entry key="..\:/DemoApp/TicTacToe/app/src/main/res/layout/robot_win_dialog.xml" value="0.1141025641025641" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
